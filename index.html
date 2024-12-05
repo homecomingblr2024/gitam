@@ -133,10 +133,15 @@
             background-color: #DD736E;
             color: #ffffff;
         }
-        /*Timeline Display Style*/
-        /* Hide the mobile timeline by default */
-        .mobile-timeline {
-            display: none;
+        @media (max-width: 768px) {
+            .rbutton {
+                margin-top: 10px;
+                padding: 0%;
+            }
+            .rbutton .cta-button {
+                padding: 10px 20px 10px 20px;
+                font-size: 16px;
+            }
         }
 </style>
 
@@ -237,9 +242,9 @@
                                     <h1 class="heading">
                                         <span class="colored-question">What is it</span> ?
                                     </h1>
-                                    <p>GITAM’s annual Homecoming is more than just a reunion; it’s a celebration of our rich heritage and a testament to the enduring bonds forged within our campus walls. This year, we’re excited to welcome our alumni to the beautiful GITAM Bengaluru campus on Saturday, December 21st, 2024.  </p>
-                                    <p>As we mark a decade since our first graduating class, we invite all GITAM alumni, from every campus and every batch, to come together and relive the magic of their college days. </p>
-                                    <p>Join us for a weekend of nostalgia, networking, and fun. Revisit familiar places, reconnect with old friends, and create new memories. Let's celebrate the past and embrace the future together.</p>
+                                    <p class="p">GITAM’s annual Homecoming is more than just a reunion; it’s a celebration of our rich heritage and a testament to the enduring bonds forged within our campus walls. This year, we’re excited to welcome our alumni to the beautiful GITAM Bengaluru campus on Saturday, December 21st, 2024.  </p>
+                                    <p class="p">As we mark a decade since our first graduating class, we invite all GITAM alumni, from every campus and every batch, to come together and relive the magic of their college days. </p>
+                                    <p class="p">Join us for a weekend of nostalgia, networking, and fun. Revisit familiar places, reconnect with old friends, and create new memories. Let's celebrate the past and embrace the future together.</p>
                                    <p class="rbutton"><a href="https://www.alumni.gitam.edu/events/event/455818.dz" class="cta-button">Register Now</a></p>
                                 </div>
                             </div>
