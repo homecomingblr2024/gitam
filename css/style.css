@@ -371,8 +371,9 @@ header {
     color: #DD736E;
 }
 
-.sa-about .content p {
+.sa-about .content .p {
     color: #fff;
+    text-align: justify;
 }
 .colored-question {
     color: #F4E4C9; /* Choose your desired color */
@@ -529,6 +530,7 @@ header {
     color: #F4E4C9;
     list-style: disc;
     font-size: 21px;
+    text-align: justify;
 }
 
 .sa-process {
