@@ -133,6 +133,22 @@
             background-color: #DD736E;
             color: #ffffff;
         }
+        /*Timeline Display Style*/
+        /* Hide the mobile timeline by default */
+        .mobile-timeline {
+            display: none;
+        }
+
+        /* Hide the desktop timeline and show the mobile one on smaller screens */
+        @media (max-width: 950px) {
+            .desktop-timeline {
+                display: none;
+            }
+
+            .mobile-timeline {
+                display: block;
+            }
+        }
 </style>
 
 <body>
@@ -270,7 +286,7 @@
         </section>
         <span class="anchor" id="Timeline"></span>
         <!-- Timeline Start-->
-        <section class="sa-timeline">
+        <section class="sa-timeline desktop-timeline">
             <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -299,7 +315,7 @@
                                             <p>4</p>
                                         </div>
                                         <div class="tiContent">
-                                            <p class="tiContenttitle">CARNIVAL</p>
+                                            <p class="tiContenttitle">CARNVAL</p>
                                         </div>
                                     </div>
                                 </li>
@@ -319,7 +335,7 @@
                                             <p>2</p>
                                         </div>
                                         <div class="tiContent">
-                                            <p class="tiContenttitle">CHANDA MELA</p>
+                                            <p class="tiContenttitle">CHANDA MELAM</p>
                                         </div>
                                     </div>
                                 </li>
@@ -372,6 +388,116 @@
                                         </div>
                                         <div class="tiContent">
                                             <p class="tiContenttitle">DINNER</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sa-timeline mobile-timeline">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="heading text-center" style="margin-bottom: 0px;">Timeline</div></h1>
+                        <div class="text-center">
+                            <span class="small-heading" style="color:#DD736E; font-size: 30px; margin-top:0px;">Starts from 2PM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="ti-card">
+                        <ul class="mt-md-5 mb-md-5 timeline">
+                                <li>
+                                    <div class="ti-card">
+                                        <div class="calender">
+                                            <p>1</p>
+                                        </div>
+                                        <div class="tiContent">
+                                            <p class="tiContenttitle">REGISTRATIONS</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ti-card">
+                                        <div class="calender">
+                                            <p>6</p>
+                                        </div>
+                                        <div class="tiContent">
+                                            <p class="tiContenttitle">CULTURALS</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ti-card">
+                                        <div class="calender">
+                                            <p>2</p>
+                                        </div>
+                                        <div class="tiContent">
+                                            <p class="tiContenttitle">CHANDA MELAM</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ti-card">
+                                        <div class="calender">
+                                            <p>7</p>
+                                        </div>
+                                        <div class="tiContent">
+                                            <p class="tiContenttitle">STAND-UP COMEDY</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ti-card">
+                                        <div class="calender">
+                                            <p>3</p>
+                                        </div>
+                                        <div class="tiContent">
+                                            <p class="tiContenttitle">EXECUTIVE EVENTS</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ti-card">
+                                        <div class="calender">
+                                            <p>8</p>
+                                        </div>
+                                        <div class="tiContent">
+                                            <p class="tiContenttitle">LIVE MUSIC</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ti-card">
+                                        <div class="calender">
+                                            <p>4</p>
+                                        </div>
+                                        <div class="tiContent">
+                                            <p class="tiContenttitle">CARNVAL</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ti-card">
+                                        <div class="calender">
+                                            <p>9</p>
+                                        </div>
+                                        <div class="tiContent">
+                                            <p class="tiContenttitle">DINNER</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ti-card">
+                                        <div class="calender">
+                                            <p>5</p>
+                                        </div>
+                                        <div class="tiContent">
+                                            <p class="tiContenttitle">INAUGURATION</p>
                                         </div>
                                     </div>
                                 </li>
@@ -457,15 +583,13 @@
                                 <li>Alumni must register on alumni portal for Homecoming 2024 Bengaluru. On spot Registrations are available at the Bengaluru Campus</li>
                                 <li>During prior registration, alumni must specify the required detailes viz. transportation, accompanies, food preferences, parking, accomodation, etc.</li>
                                 <li>Alumni should carry the alumni card (if possesed). Alumni must display the registration confirmation mail at the registration desks at the entrance of the campus</li>
-                                <li>Attendees must adhere to the strict code of conduct</li>
-                                <li>No person who is under influence of alcohol or any other drugs shall not be allowed to enter the campus</li>
+                                <li>Attendees must adhere to the strict code of conduct of campus</li>
+                                <li>No person who is under influence of alcohol or any other drugs will not be allowed to enter the campus</li>
                                 <li>Attendees are requested to follow the itinerary given in the brochure at the registartion desks</li>
-                                <li>Attendees are requested to be well informed about the Homecoming in advance to prevent any assumptions. Alumni can reach out to the mail ID hc2024blr@gitam.edu incase of queries</li>
                                 <li>Attendees consent to being recorded, photographed and filmed as part of media coverage of Homecoming. All rights to use, broadcast, stream, sell and promote the media are reserved by the Organizers</li>
                                 <li>Attendees are solely responsible for their personal belongings including but not limited to personal vehicles, items, etc.</li>
                                 <li>Attendees unconditionally agree to these terms and conditions upon registering for the Homecoming</li>
-                    
-
+                                <li>Attendees are requested to be well informed about the Homecoming in advance to prevent any assumptions. Alumni can reach out to the mail ID hc2024blr@gitam.edu incase of queries</li>
                             </ul>
                         </div>
                     </div>
@@ -1098,22 +1222,7 @@
                                                                 <div class="testimonial_box-inner">
                                                                     <div class="testimonial_box-top">
                                                                         <div class="testimonial_box-img">
-                                                                            <img src="guest/Abhinav K.jpg" alt="Abhinav K">
-                                                                        </div>
-                                                                        <div class="testimonial_box-name">
-                                                                            <h4>Abhinav K</h4>
-                                                                            <p>Registration Lead</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="testimonial-slide">
-                                                            <div class="testimonial_box">
-                                                                <div class="testimonial_box-inner">
-                                                                    <div class="testimonial_box-top">
-                                                                        <div class="testimonial_box-img">
-                                                                            <img src="guest/Dinesh T.jpg" alt="Dinesh T">
+                                                                            <img src="guest" alt="Dinesh T">
                                                                         </div>
                                                                         <div class="testimonial_box-name">
                                                                             <h4>Dinesh T</h4>
@@ -1267,7 +1376,7 @@
                                                                 <div class="testimonial_box-inner">
                                                                     <div class="testimonial_box-top">
                                                                         <div class="testimonial_box-img">
-                                                                            <img src="guest/Sumayyan.jpg" alt="Sumayyan">
+                                                                            <img src="guest" alt="Sumayyan">
                                                                         </div>
                                                                         <div class="testimonial_box-name">
                                                                             <h4>Sumayya</h4>
@@ -1293,68 +1402,64 @@
                                 <div id="flush-collapsegallery" class="accordion-collapse collapse" aria-labelledby="flush-headingGallery" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <section class="masnory">
-                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7140.jpg" data-caption="Team">
+                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7140.jpg" data-caption="Hospitality Team">
                                                     <img src="gallery/images/_BLR7140.jpg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/_BLR7140.jpg" alt="Gallery " />
                                                 </a>
-                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7157.jpg" data-caption="Team">
+                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7157.jpg" data-caption="Media & Tech Team">
                                                     <img src="gallery/images/_BLR7157.jpg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/_BLR7157.jpg" alt="Gallery " />
                                                 </a>
-                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7175.jpg" data-caption="Team">
-                                                    <a data-fancybox="gallery" data-src="gallery/images/_BLR7175.jpg" data-caption="Team">
-                                                        <img src="gallery/images/_BLR7175.jpg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/_BLR7175.jpg" alt="Gallery " />
-                                                    </a>
-                                                    <a data-fancybox="gallery" data-src="gallery/images/_BLR7180.jpg" data-caption="Team">
-                                                        <img src="gallery/images/_BLR7180.jpg" class="mb-2 img-fluid lazyloaded" data-src="hgallery/images/_BLR7180.jpg" alt="Gallery " />
-                                                    </a>
-                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7187.jpg" data-caption="Team">
+                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7175.jpg" data-caption="Outreach Team">
+                                                    <img src="gallery/images/_BLR7175.jpg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/_BLR7175.jpg" alt="Gallery " />
+                                                </a>
+                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7180.jpg" data-caption="Recreational Team">
+                                                    <img src="gallery/images/_BLR7180.jpg" class="mb-2 img-fluid lazyloaded" data-src="hgallery/images/_BLR7180.jpg" alt="Gallery " />
+                                                </a>
+                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7187.jpg" data-caption="Marketing Team">
                                                     <img src="gallery/images/_BLR7187.jpg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/_BLR7187.jpg" alt="Gallery " />
                                                 </a>
-                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7209.jpg" data-caption="Team">
+                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7209.jpg" data-caption="Logistics Team">
                                                     <img src="gallery/images/_BLR7209.jpg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/_BLR7209.jpg" alt="Gallery " />
                                                 </a>
-                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7213.jpg" data-caption="Team">
+                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7213.jpg" data-caption="Executive Events Team">
                                                     <img src="gallery/images/_BLR7213.jpg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/_BLR7213.jpg" alt="Gallery " />
                                                 </a>
-                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7234.jpg" data-caption="Team">
+                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7234.jpg" data-caption="Finance Team">
                                                     <img src="gallery/images/_BLR7234.jpg" class="mb-2 img-fluid lazyloaded" data-src="hgallery/images/_BLR7234.jpg" alt="Gallery " />
                                                 </a>
-                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7242.jpg" data-caption="Team">
-                                                    <img src="gallery/images/_BLR7242.jpg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/_BLR7242.jpg" alt="Gallery " />
-                                                </a>
-                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7274.jpg" data-caption="Team">
+                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7274.jpg" data-caption="All Domain Chairs">
                                                     <img src="gallery/images/_BLR7274.jpg" class="mb-2 img-fluid lazyloaded" data-src="allery/images/_BLR7274.jpg" alt="Gallery " />
                                                 </a>
-                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7294.jpg" data-caption="Team">
+                                                <a data-fancybox="gallery" data-src="gallery/images/_BLR7294.jpg" data-caption="Student Coordinators">
                                                     <img src="gallery/images/_BLR7294.jpg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/_BLR7294.jpg" alt="Gallery " />
                                                 </a> 
-                                                <a data-fancybox="gallery" data-src="gallery/images/1.jpeg" data-caption="Team">
+                                                <a data-fancybox="gallery" data-src="gallery/images/1.jpeg" data-caption="Events.jpg">
                                                     <img src="gallery/images/1.jpeg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/1.jpeg" alt="Gallery " />
                                                 </a>
-                                            <a data-fancybox="gallery" data-src="gallery/images/2.jpeg" data-caption="Team">
+                                            <a data-fancybox="gallery" data-src="gallery/images/2.jpeg" data-caption="Events.jpg">
                                                     <img src="gallery/images/2.jpeg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/2.jpeg" alt="Gallery " />
                                                 </a>
-                                            <a data-fancybox="gallery" data-src="gallery/images/3.jpeg" data-caption="Team">
+                                            <a data-fancybox="gallery" data-src="gallery/images/3.jpeg" data-caption="Events.jpg">
                                                     <img src="gallery/images/3.jpeg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/3.jpeg" alt="Gallery " />
                                                 </a>
-                                            <a data-fancybox="gallery" data-src="gallery/images/4.jpeg" data-caption="Team">
+                                            <a data-fancybox="gallery" data-src="gallery/images/4.jpeg" data-caption="Events.jpg">
                                                     <img src="gallery/images/4.jpeg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/4.jpeg" alt="Gallery " />
                                                 </a>
-                                            <a data-fancybox="gallery" data-src="gallery/images/5.jpeg" data-caption="Team">
+                                            <a data-fancybox="gallery" data-src="gallery/images/5.jpeg" data-caption="Events.jpg">
                                                     <img src="gallery/images/5.jpeg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/5.jpeg" alt="Gallery " />
                                                 </a>
-                                            <a data-fancybox="gallery" data-src="gallery/images/6.jpeg" data-caption="Team">
+                                            <a data-fancybox="gallery" data-src="gallery/images/6.jpeg" data-caption="Events.jpg">
                                                     <img src="gallery/images/6.jpeg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/6.jpeg" alt="Gallery " />
                                                 </a>
-                                            <a data-fancybox="gallery" data-src="gallery/images/7.jpeg" data-caption="Team">
+                                            <a data-fancybox="gallery" data-src="gallery/images/7.jpeg" data-caption="Events.jpg">
                                                     <img src="gallery/images/7.jpeg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/7.jpeg" alt="Gallery " />
                                                 </a>
-                                            <a data-fancybox="gallery" data-src="gallery/images/8.jpeg" data-caption="Team">
+                                            <a data-fancybox="gallery" data-src="gallery/images/8.jpeg" data-caption="Events.jpg">
                                                     <img src="gallery/images/8.jpeg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/8.jpeg" alt="Gallery " />
                                                 </a>
-                                            <a data-fancybox="gallery" data-src="gallery/images/9.jpeg" data-caption="Team">
+                                            <a data-fancybox="gallery" data-src="gallery/images/9.jpeg" data-caption="Events.jpg">
                                                     <img src="gallery/images/9.jpeg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/9.jpeg" alt="Gallery " />
                                                 </a>
-                                            <a data-fancybox="gallery" data-src="gallery/images/10.jpeg" data-caption="Team">
+                                            <a data-fancybox="gallery" data-src="gallery/images/10.jpeg" data-caption="Events.jpg">
                                                     <img src="gallery/images/10.jpeg" class="mb-2 img-fluid lazyloaded" data-src="gallery/images/10.jpeg" alt="Gallery " />
                                             </a>
                                         </section>
@@ -1379,7 +1484,7 @@
                     <div class="col-md-4">
                         <div class="content">
                             <h4 style="color: #DD736E;">Contact</h4>
-                            <p style="color: #007367;"><i class="fa fa-building"></i>GITAM Deemed to be University, NH 207, Nagadenehalli, Doddaballapur Taluk<br> Bengaluru - 561203 Karnataka, India</p>
+                            <p style="color: #007367;"><i class="fa fa-building"></i>GITAM (Deemed to be University), NH 207, Nagadenehalli, Doddaballapur Taluk<br> Bengaluru - 561203 Karnataka, India</p>
                             <p style="color: #007367;"><i class="fa fa-globe"></i>  Directorate of External Relations (DoER)</p>
                             <p style="color: #DD736E;"><i class="fa fa-envelope-o"></i> <a href="mailto:hc2024blr@gitam.edu" style="color: #007367;" target="_blank">hc2024blr@gitam.edu</a></p>
                             <p style="color: #DD736E;"><i class="fa fa-phone"></i> <a href="tel:+91 891-2866423" style="color: #007367;">+91 7411741203
